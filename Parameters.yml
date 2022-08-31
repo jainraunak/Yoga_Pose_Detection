@@ -1,0 +1,17 @@
+Paths:
+  TrainData: None
+  TestData: None
+  Model: None
+  Predictions: None
+
+SaveModel: true
+
+OptimizerParameters:
+  BatchSize: 128
+  LearningRate: 0.001
+  WeightDecay: 0.0001
+  StepSize: 20
+  Gamma: 0.5
+
+Epochs: 12
+NumberOfWorkers: 8
